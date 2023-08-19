@@ -1,0 +1,52 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+main > section {
+    width: 70%;
+}
+
+main > section.slug {
+    padding: 4rem;
+    text-align: center;
+}
+main > section.slug > h1 {
+    font-size: 24pt;
+    font-weight: 800;
+}
+main > section.slug > p {
+    font-size: 14pt;
+    font-weight: 200;
+    margin-top: 1rem;
+}
+
+main > section.posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+main > section.posts {
+    width: 100%;
+    text-align: center;
+    border-radius: 1rem;
+}
+main > section.posts > ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    gap: 1rem;
+}
+main > section.posts > ul > a {
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0px 3px 5px #00000037;
+    text-decoration: none;
+}
+main > section.posts > ul > a > li {
+    color: black;
+}
